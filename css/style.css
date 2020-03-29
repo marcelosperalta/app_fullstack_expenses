@@ -1,0 +1,41 @@
+* {
+    /* border:                  5px solid blue; */
+    box-sizing:                    border-box;
+    margin:                               5px;
+    padding:                              0px;
+}
+
+body {
+    /* border:                  5px solid blue; */
+    display:                             grid;
+    place-items:                       center;
+}
+
+.ls-login-logo {
+    /* border:                  5px solid blue; */
+    font-size:                           50px;
+    text-align:                        center;
+    color:                         darkcyan;
+}
+
+input {
+    font-size:                           18px;
+}
+
+.btn-sing-in {
+    /* border:                  5px solid blue; */
+    font-size:                           16px;
+        /* center        */
+        display:     block;
+        margin-left:  auto;
+        margin-right: auto;
+        /* center        */
+    padding:                              3px;
+    width: 30%;
+}
+fieldset:hover,
+.btn-sing-in:hover {
+    border:              2px solid darkcyan;
+    font-weight:                       bolder;
+    color:                         darkcyan;
+}
