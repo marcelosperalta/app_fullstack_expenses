@@ -3,13 +3,21 @@
 ## **Login Form:**
 
 MDN (Mozilla Developer Network)  
-[- form](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
+[- form](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)  
 
 Locaweb Style  
 [- Tela de Login](http://opensource.locaweb.com.br/locawebstyle-v2/manual/layout/tela-login/)
 
 W3Schools  
 [- How To Create a Login Form](https://www.w3schools.com/howto/howto_css_login_form.asp)
+
+## **Input:**
+
+MDN (Mozilla Developer Network)  
+[- input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)  
+[- input - date](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)  
+[- input - number](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)  
+[- input - submit](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)  
 
 ## **Centering Things:**
 
