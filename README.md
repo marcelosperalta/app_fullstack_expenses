@@ -1,5 +1,8 @@
 # **Expenses** :moneybag: :euro: :dollar: :pound:
 
+# Our proposed design for the app on Figma:
+https://www.figma.com/file/UZ4ZKhxA1ZwoKbIezuIRiQ/Expense-App?node-id=0%3A1
+
 ## **Login Form:**
 
 MDN (Mozilla Developer Network)  
