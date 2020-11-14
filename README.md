@@ -1,33 +1,30 @@
 # **Expenses** :moneybag: :euro: :dollar: :pound:
 
-# Our proposed design for the app on Figma:
-https://www.figma.com/file/UZ4ZKhxA1ZwoKbIezuIRiQ/Expense-App?node-id=0%3A1
+Control personal expenses and incomings.
 
-## **Login Form:**
+### Features:
 
-MDN (Mozilla Developer Network)  
-[- form](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)  
+- Login;
+- Dashboard;
+- Add expense;
+- Add budget;
+- Reports;
 
-Locaweb Style  
-[- Tela de Login](http://opensource.locaweb.com.br/locawebstyle-v2/manual/layout/tela-login/)
+## Technologies:
 
-W3Schools  
-[- How To Create a Login Form](https://www.w3schools.com/howto/howto_css_login_form.asp)
+- HTML;
+- CSS;
+- JavaScript;
+- TypeScript;
+- React;
+- PostgreSQL;
 
-## **Input:**
+### _Dependencies:_
 
-MDN (Mozilla Developer Network)  
-[- input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)  
-[- input - date](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)  
-[- input - number](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)  
-[- input - submit](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)  
+- [TypeORM;](https://typeorm.io/)  
+- [axios](https://github.com/axios/axios);
 
-## **Centering Things:**
+## Prototype:
 
-W3C (World Wide Web Consortium)  
-[- CENTERING THINGS](https://www.w3.org/Style/Examples/007/center.en.html)
+https://www.figma.com/file/UZ4ZKhxA1ZwoKbIezuIRiQ/Expense-App?node-id=0%3A1  
 
-## **Emoji List:**
-
-The Unicode Consortium  
-[- Full Emoji List, v13.0](https://unicode.org/emoji/charts/full-emoji-list.html)
