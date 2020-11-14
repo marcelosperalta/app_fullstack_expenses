@@ -2,6 +2,10 @@
 
 Control personal expenses and incomings.
 
+## Prototype:
+
+https://www.figma.com/file/UZ4ZKhxA1ZwoKbIezuIRiQ/Expense-App?node-id=0%3A1  
+
 ### Features:
 
 - Login;
@@ -23,8 +27,4 @@ Control personal expenses and incomings.
 
 - [TypeORM;](https://typeorm.io/)  
 - [axios](https://github.com/axios/axios);
-
-## Prototype:
-
-https://www.figma.com/file/UZ4ZKhxA1ZwoKbIezuIRiQ/Expense-App?node-id=0%3A1  
 
