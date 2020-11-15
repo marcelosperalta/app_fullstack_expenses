@@ -1,12 +1,11 @@
 import React from 'react';
-import Login from "./pages/login"
+
+import Routes from './routes'
 
 import './styles/global.css';
 
-function App() {
+export default function App() {
   return (
-    <Login />
+    <Routes />
   );
 }
-
-export default App;
