@@ -1,0 +1,14 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "nonononono",
+    "database": "postgres",
+    "entities": ["./src/models/*.tsx"],
+    "migrationsTableName": "expenses_migration_table",
+    "migrations": ["./src/database/migrations/*.ts"],
+    "cli": {
+        "migrationsDir": "./src/database/migrations"
+    }
+ }
