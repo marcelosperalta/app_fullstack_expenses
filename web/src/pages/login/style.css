@@ -4,11 +4,11 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 .login  {
-    height: 64vh;
+    height: 37.5em;
     font-family: "Righteous-Regular";
     text-align: center;
+    padding: 60px 60px 0 60px;
     background-color: #B9D3C7;
     border-radius: 5px;
 }

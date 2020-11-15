@@ -1,31 +1,5 @@
-body {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.login  {
-    height: 64vh;
-    font-family: "Righteous-Regular";
-    text-align: center;
-    padding: 60px 60px 0 60px;
-    background-color: #B9D3C7;
-    border-radius: 5px;
-}
-
 .login .image .register-img {
     margin-bottom: 20px;
-}
-
-.login input {
-    margin-bottom: 4px;
-    line-height: 45px;
-    border: transparent;
-    border-radius: 5px;
-    padding-left: 5px;
-    /* caret-color: black; */
-
 }
 .login input::placeholder {
     font-size: 14px;
