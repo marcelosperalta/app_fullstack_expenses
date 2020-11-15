@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Righteous-Regular";
+    src: url("../fonts/Righteous/Righteous-Regular.ttf");
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login  {
+    font-family: "Righteous-Regular";
+    text-align: center;
+    padding: 60px 60px 0 60px;
+    background-color: #B9D3C7;
+    border-radius: 5px;
+}
+.login img,
+.login .title p,
+.login input,
+.login button {
+    width: 90%;
+}
+.login .title p {
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.login input {
+    margin-bottom: 4px;
+    line-height: 45px;
+    border: transparent;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.login input::placeholder {
+    font-size: 14px;
+}
+.login button {
+    height: 45px;
+    margin-top: 20px;
+    background-color: #21BB96;
+    border: transparent;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.login button:hover{
+    background-color: #10a783;
+}
+.login .register-link{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    color: #21BB96;
+}
+.login .footer {
+    padding-bottom: 2px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 450px) {
+    body {
+        background-color: #B9D3C7;
+    }
+}
