@@ -3,7 +3,7 @@
     "host": "localhost",
     "port": 5432,
     "username": "postgres",
-    "password": "nonononono",
+    "password": "nonono",
     "database": "postgres",
     "entities": ["./src/models/*.tsx"],
     "migrationsTableName": "expenses_migration_table",
