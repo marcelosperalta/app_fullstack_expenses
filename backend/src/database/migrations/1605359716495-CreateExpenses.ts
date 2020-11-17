@@ -29,7 +29,6 @@ export default class CreateExpenses1605359716495 implements MigrationInterface {
                 {
                     name: 'createdAt',
                     type: 'timestamp',
-                    default: 'now()',
                 },
                 {
                     name: 'createdBy',
@@ -38,7 +37,6 @@ export default class CreateExpenses1605359716495 implements MigrationInterface {
                 {
                     name: 'lastUpdatedAt',
                     type: 'timestamp',
-                    default: 'now()',
                 },
                 {
                     name: 'lastUpdatedBy',

@@ -9,22 +9,22 @@ class Expense {
     @Column()
     title: string;
 
-    @Column()
+    @Column({nullable: true})
     description: string; 
 
     @Column()
     value: number;
 
-    @Column()
+    @Column({nullable: true})
     createdAt: Date;
 
-    @Column()
+    @Column({nullable: true})
     createdBy: string;
 
-    @Column()
+    @Column({nullable: true})
     lastUpdatedAt: Date;
 
-    @Column()
+    @Column({nullable: true})
     lastUpdatedBy: string;
 
 };

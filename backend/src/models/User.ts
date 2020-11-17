@@ -21,19 +21,19 @@ class User {
     @Column()
     password: string;
 
-    @Column()
+    @Column({nullable: true})
     avatar: string;
 
-    @Column()
+    @Column({nullable: true})
     createdAt: Date;
 
-    @Column()
+    @Column({nullable: true})
     createdBy: string;
 
-    @Column()
+    @Column({nullable: true})
     lastUpdatedAt: string;
 
-    @Column()
+    @Column({nullable: true})
     lastUpdatedBy: string;
 
 };
