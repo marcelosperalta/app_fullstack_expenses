@@ -1,0 +1,91 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login  {
+    height: 37.5em;
+    font-family: "Righteous-Regular";
+    text-align: center;
+    padding: 60px 60px 0 60px;
+    background-color: #B9D3C7;
+    border-radius: 5px;
+}
+.login img {
+    margin-top: -20px;
+}
+.login img,
+.login .title p,
+.login input,
+.login button {
+    width: 95%;
+}
+.login .title p,
+.login .footer {
+    user-select: none;
+}
+.login .title p {
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.login input {
+    margin-bottom: 4px;
+    line-height: 45px;
+    border: transparent;
+    border-radius: 5px;
+    padding-left: 5px;
+    /* caret-color: black; */
+
+}
+.login input::placeholder {
+    font-size: 14px;
+}
+.login input:focus {
+    outline: none;
+    user-select: none;
+}
+.login button {
+    height: 45px;
+    margin-top: 20px;
+    background-color: #21BB96;
+    border: transparent;
+    border-radius: 5px;
+    font-family: "Righteous-Regular";
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.login button:hover{
+    background-color: #10a783;
+}
+.login .register-link {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    color: #21BB96;
+}
+.login .register-link a:link, 
+.login .register-link a:visited,
+.login .register-link a:active {
+    color: #21BB96;
+    text-decoration: transparent;
+}
+.login .register-link a:hover {
+    color:  #10a783;
+}
+.login .footer {
+    margin-top: 65px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 450px) {
+    body {
+        background-color: #B9D3C7;
+    }
+}
