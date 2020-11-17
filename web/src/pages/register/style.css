@@ -1,0 +1,36 @@
+.login .image .register-img {
+    margin-bottom: 20px;
+}
+.login input::placeholder {
+    font-size: 14px;
+}
+.login input:focus {
+    outline: none;
+    user-select: none;
+}
+.login button {
+    height: 45px;
+    margin-top: 20px;
+    background-color: #21BB96;
+    border: transparent;
+    border-radius: 5px;
+    font-family: "Righteous-Regular";
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.login button:hover{
+    background-color: #10a783;
+}
+.login .register-link{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    color: #21BB96;
+}
+
+@media (max-width: 450px) {
+    body {
+        background-color: #B9D3C7;
+    }
+}
