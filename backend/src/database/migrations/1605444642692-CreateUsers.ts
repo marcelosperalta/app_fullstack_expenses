@@ -45,7 +45,7 @@ export class CreateUsers1605444642692 implements MigrationInterface {
                 },
                 {
                     name: 'createdBy',
-                    type: 'numeric',
+                    type: 'varchar',
                 },
                 {
                     name: 'lastUpdatedAt',
@@ -54,7 +54,7 @@ export class CreateUsers1605444642692 implements MigrationInterface {
                 },
                 {
                     name: 'lastUpdatedBy',
-                    type: 'numeric',
+                    type: 'varchar',
                 }
                 ]
             })

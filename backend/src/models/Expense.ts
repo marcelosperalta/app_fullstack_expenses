@@ -22,7 +22,7 @@ class Expense {
     createdBy: string;
 
     @Column()
-    lastUpdatedAt: string;
+    lastUpdatedAt: Date;
 
     @Column()
     lastUpdatedBy: string;

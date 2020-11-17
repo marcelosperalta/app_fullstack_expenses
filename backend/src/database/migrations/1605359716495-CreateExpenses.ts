@@ -33,7 +33,7 @@ export default class CreateExpenses1605359716495 implements MigrationInterface {
                 },
                 {
                     name: 'createdBy',
-                    type: 'numeric',
+                    type: 'varchar',
                 },
                 {
                     name: 'lastUpdatedAt',
@@ -42,7 +42,7 @@ export default class CreateExpenses1605359716495 implements MigrationInterface {
                 },
                 {
                     name: 'lastUpdatedBy',
-                    type: 'numeric',
+                    type: 'varchar',
                 }
                 ]
             })
