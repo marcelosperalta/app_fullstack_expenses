@@ -1,7 +1,7 @@
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
-@Entity()
-class Expenses {
+@Entity('expenses')
+class Expense {
 
     @PrimaryGeneratedColumn()
     id: number;
@@ -29,4 +29,4 @@ class Expenses {
 
 };
 
-export default Expenses;
+export default Expense;
