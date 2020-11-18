@@ -4,7 +4,7 @@
     "host": "localhost",
     "port": 5432,
     "username": "postgres",
-    "password": "nononon",
+    "password": "nonononooo",
     "database": "postgres",
     "entities": ["./src/models/*.ts"],
     "migrationsTableName": "expenses_migration_table",
