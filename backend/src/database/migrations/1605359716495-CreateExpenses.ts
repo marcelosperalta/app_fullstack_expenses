@@ -21,6 +21,7 @@ export default class CreateExpenses1605359716495 implements MigrationInterface {
                 {
                     name: 'description',
                     type: 'varchar',
+                    isNullable: true,
                 },
                 {
                     name: 'value',
@@ -29,18 +30,22 @@ export default class CreateExpenses1605359716495 implements MigrationInterface {
                 {
                     name: 'createdAt',
                     type: 'timestamp',
+                    isNullable: true,
                 },
                 {
                     name: 'createdBy',
                     type: 'varchar',
+                    isNullable: true,
                 },
                 {
                     name: 'lastUpdatedAt',
                     type: 'timestamp',
+                    isNullable: true,
                 },
                 {
                     name: 'lastUpdatedBy',
                     type: 'varchar',
+                    isNullable: true,
                 }
                 ]
             })
