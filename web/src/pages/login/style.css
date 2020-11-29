@@ -60,7 +60,8 @@ body {
     font-weight: bold;
     color: #FFFFFF;
 }
-.login button:hover{
+.login button:hover {
+    cursor: pointer;
     background-color: #10a783;
 }
 .login .register-link {

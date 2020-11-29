@@ -1,11 +1,12 @@
 import React from "react";
-
-import "./style.css"
-
-import img from "../../images/login-logo.png"
 import { Link } from "react-router-dom";
 
-export default function Login(){
+import "./style.css";
+
+import img from "../../images/login-logo.png";
+
+
+export default function Login() {
     return (
         <div className="login">
             <div className="image">

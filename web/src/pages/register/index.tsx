@@ -1,10 +1,11 @@
 import React from "react";
 
-import "./style.css"
+import "./style.css";
 
-import img from "../../images/login-logo.png"
+import img from "../../images/login-logo.png";
+import { Link } from "react-router-dom";
 
-export default function Login(){
+export default function Register() {
     return (
         <div className="login">
             <div className="image">
@@ -55,11 +56,13 @@ export default function Login(){
                 />
             </div>
             <div className="login-button">
+                <Link to="/register-success">
                 <button 
                     type="submit"
                 >
                     Complete Register
                 </button>
+                </Link>
             </div>        
         </div>
     )
