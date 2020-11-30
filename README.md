@@ -85,11 +85,11 @@
 
 ## Prototype:
 
-https://www.figma.com/file/UZ4ZKhxA1ZwoKbIezuIRiQ/Expense-App?node-id=0%3A1  
+- https://www.figma.com/file/UZ4ZKhxA1ZwoKbIezuIRiQ/Expense-App?node-id=0%3A1  
 
 ## Database Diagram:
 
-https://dbdiagram.io/d/5fafd2d63a78976d7b7be3eb
+- https://dbdiagram.io/d/5fafd2d63a78976d7b7be3eb  
 
 ## How to run the project
 
