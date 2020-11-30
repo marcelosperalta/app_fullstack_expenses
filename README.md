@@ -95,9 +95,10 @@ https://dbdiagram.io/d/5fafd2d63a78976d7b7be3eb
 
 ### front-end
 
+
 ```
-cd web
-npm start
+    cd web
+    npm start
 ```
 
 ## Notes: 
