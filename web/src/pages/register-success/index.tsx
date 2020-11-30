@@ -5,7 +5,7 @@ import "./style.css";
 
 export default function RegisterSuccess() {
     return (
-        <div className="login">
+        <div className="login register-success">
             <div>
                 <h1>Success!</h1>
             </div>

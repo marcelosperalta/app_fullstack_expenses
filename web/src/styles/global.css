@@ -8,3 +8,7 @@
     font-family: "Righteous-Regular";
     src: url("../fonts/Righteous/Righteous-Regular.ttf");
 }
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
