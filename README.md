@@ -7,9 +7,11 @@
 ## Screenshots:
 
 <div align="center">
-    <img src="./readme/screenshot_01_login.png" width="100px">
-    <img src="./readme/screenshot_02_dashboard.png" width="100px">
-<div>
+    <img src="./readme/screenshot_01_login.png" width="150px">
+    <img src="./readme/screenshot_02_register.png" width="150px">
+    <img src="./readme/screenshot_03_dashboard.png" width="150px">
+</div>
+<br>
 
 ## How it works:
 
