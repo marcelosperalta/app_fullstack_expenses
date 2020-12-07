@@ -4,6 +4,13 @@
 
 - A personal finance application for daily control of incomes and expenses.  
 
+## Screenshots:
+
+<div align="center">
+    <img src="./readme/screenshot_01_login.png" width="100px">
+    <img src="./readme/screenshot_02_dashboard.png" width="100px">
+<div>
+
 ## How it works:
 
 ### Minimum Viable Product (MVP):
