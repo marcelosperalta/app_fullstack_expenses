@@ -70,6 +70,7 @@
 - CSS;
 - SASS;
 - JavaScript;
+- TypeScript;
 - React;
 - React Native.
 
