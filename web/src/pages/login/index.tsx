@@ -35,11 +35,13 @@ export default function Login() {
                 />
             </div>
             <div className="login-button">
-                <button 
-                    type="submit"
-                >
-                    Login
-                </button>
+                <Link to="/dashboard">
+                    <button 
+                        type="submit"
+                    >
+                        Login
+                    </button>
+                </Link>
             </div>
             <div className="register-link">
                 <Link to="/register">
