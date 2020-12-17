@@ -9,9 +9,11 @@ export default function RegisterSuccess() {
             <div>
                 <h1>Success!</h1>
             </div>
+
             <div>
                 <p>Thanks for completing your registration!</p>
             </div>
+            
             <div>
                 <Link to="">
                     &gt;
