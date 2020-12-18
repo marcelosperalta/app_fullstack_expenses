@@ -44,3 +44,11 @@
     font-size: 24px;
     color: #21BB96;
 }
+
+.dashboard .week .planned,
+.dashboard .week .remaining,
+.dashboard .week .expenses-budget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
