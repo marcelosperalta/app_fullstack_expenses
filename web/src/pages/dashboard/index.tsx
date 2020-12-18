@@ -17,30 +17,42 @@ export default function Dashboard() {
                     Max Mustermann
                 </h1>
             </div>
+
             <div className="week">
                 <div>
                     Week 35
                 </div>
-                <div>
-                    Planned budget:
+
+                <div className="planned">
+                    <div>
+                        Planned budget:
+                    </div>
+                    <div>
+                        150.00 €
+                    </div>
                 </div>
-                <div>
-                    150.00 €
+
+                <div className="remaining">
+                    <div>
+                        Remaining budget:
+                    </div>
+                    <div>
+                        -32.00 €
+                    </div>
                 </div>
-                <div>
-                    Remaining budget:
-                </div>
-                <div>
-                    -32.00 €
-                </div>
+
                 <hr/>
-                <div>
-                    Expenses
-                </div>
-                <div>
-                    Budget
+
+                <div className="expenses-budget">
+                    <div>
+                        Expenses
+                    </div>
+                    <div>
+                        Budget
+                    </div>
                 </div>
             </div>
+            
             <div className="month">
                 <div>
                     August
