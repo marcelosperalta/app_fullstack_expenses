@@ -19,12 +19,12 @@ export default function Dashboard() {
             </div>
 
             <div className="week">
-                <div>
+                <div className="week-number">
                     Week 35
                 </div>
 
                 <div className="planned">
-                    <div>
+                    <div id="test">
                         Planned budget:
                     </div>
                     <div>
@@ -52,7 +52,7 @@ export default function Dashboard() {
                     </div>
                 </div>
             </div>
-            
+
             <div className="month">
                 <div>
                     August
