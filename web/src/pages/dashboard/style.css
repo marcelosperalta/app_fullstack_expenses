@@ -9,6 +9,8 @@
     position: relative;
 
     padding-top: 0;
+
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
 .dashboard .next {
@@ -47,6 +49,8 @@
     color: #21BB96;
 
     margin-top: 20px;
+
+    font-family: "Righteous-Regular";
 }
 
 .dashboard .week,
@@ -135,4 +139,6 @@
     color: #ffffff;
 
     margin-bottom: 20px;
+
+    font-family: "Righteous-Regular";
 }
