@@ -54,30 +54,41 @@ export default function Dashboard() {
             </div>
 
             <div className="month">
-                <div>
+                <div className="month-name">
                     August
                 </div>
-                <div>
-                    Planned budget:
+
+                <div className="planned">
+                    <div>
+                        Planned budget:
+                    </div>
+                    <div>
+                        1850.00 €
+                    </div>
                 </div>
-                <div>
-                    1850.00 €
+
+                <div className="remaining">
+                    <div>
+                        Remaining budget:
+                    </div>
+                    <div>
+                        432.00 €
+                    </div>
                 </div>
-                <div>
-                    Remaining budget:
-                </div>
-                <div>
-                    432.00 €
-                </div>
+
                 <hr/>
-                <div>
-                    Expenses
-                </div>
-                <div>
-                    Budget
+
+                <div className="expenses-budget">
+                    <div>
+                        Expenses
+                    </div>
+                    <div>
+                        Budget
+                    </div>
                 </div>
             </div>
-            <div>
+
+            <div className="reports">
                 View Reports
             </div>
         </div>
