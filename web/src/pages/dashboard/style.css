@@ -9,6 +9,8 @@
     position: relative;
 
     padding-top: 0;
+
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
 .dashboard .next {
@@ -45,11 +47,19 @@
 .dashboard .h1-dashboard {
     font-size: 24px;
     color: #21BB96;
+
+    margin-top: 20px;
+
+    font-family: "Righteous-Regular";
 }
 
-.dashboard .week {
-    border: 2px solid #d3d3d3 ;
-    box-shadow: #d3d3d3 4px 4px 3px;
+.dashboard .week,
+.dashboard .month {
+    border-top: 2px solid #d3d3d3;
+    border-left: 2px solid #d3d3d3;
+    border-right: 1px solid #b9b7b7;
+    border-bottom: .2px solid #b9b7b7;
+    box-shadow: #c0bfbf 4px 4px 3px;
     border-radius: 8px;
     padding: 0 20px 20px 20px;
 
@@ -61,25 +71,31 @@
     justify-content: space-around;
     align-items: stretch;
 }
-.dashboard .week .week-number {
+.dashboard .week .week-number,
+.dashboard .month .month-name {
     opacity: 0.45;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.dashboard .week hr {
+.dashboard .week hr,
+.dashboard .month hr {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 .dashboard .week .planned,
 .dashboard .week .remaining,
-.dashboard .week .expenses-budget {
+.dashboard .week .expenses-budget,
+.dashboard .month .planned,
+.dashboard .month .remaining,
+.dashboard .month .expenses-budget {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .dashboard .week .planned div:first-child,
-.dashboard .week .remaining div:first-child {
+.dashboard .week .remaining div:first-child,
+.dashboard .month .planned div:first-child,
+.dashboard .month .remaining div:first-child {
     width: 60%;
     display: flex;
     justify-content: flex-start;
@@ -87,18 +103,42 @@
     line-height: 30px;
 }
 .dashboard .week .planned div+div,
-.dashboard .week .remaining div+div {
+.dashboard .week .remaining div+div,
+.dashboard .month .planned div+div,
+.dashboard .month .remaining div+div {
     width: 40%;
     display: flex;
     justify-content: flex-end;
 }
-.dashboard .week .planned div+div {
+.dashboard .week .planned div+div,
+.dashboard .month .planned div+div {
     color: #3DA4AB;
 }
 .dashboard .week .remaining div+div {
     color: #FF6847;
 }
-.dashboard .week .expenses-budget {
+.dashboard .month .remaining div+div {
+    color: #FFBD59;
+}
+.dashboard .week .expenses-budget,
+.dashboard .month .expenses-budget {
     justify-content: space-around;
     opacity: 0.4;
+}
+.dashboard .reports {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 334px;
+    height: 60px;
+    background-color: #3DA4AB;
+    border-radius: 8px;
+
+    font-size: 24px;
+    color: #ffffff;
+
+    margin-bottom: 20px;
+
+    font-family: "Righteous-Regular";
 }
