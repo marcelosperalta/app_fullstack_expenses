@@ -1,30 +1,19 @@
-.dashboard {
-    background-color: whitesmoke;
-    /* background-color: white; */
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    
+.investments {
     position: relative;
-
-    padding-top: 0;
-
-    font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
-.dashboard .dashboard-container .next {
+
+.investments .dashboard-container .back {
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     padding-top: 10px;
-    padding-right: 20px;
+    padding-left: 20px;
 }
 
-.dashboard .dashboard-container .next .next-button {
+.investments .dashboard-container .back .next-button {
     color: #FFFFFF;
 }
-.dashboard .dashboard-container .next .next-button {
+.investments .dashboard-container .back .next-button {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -32,21 +21,21 @@
 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.dashboard .dashboard-container .next .next-button:link, 
-.dashboard .dashboard-container .next .next-button:visited,
-.dashboard .dashboard-container .next .next-button:active {
+.investments .dashboard-container .back .next-button:link, 
+.investments .dashboard-container .back .next-button:visited,
+.investments .dashboard-container .back .next-button:active {
     color: #75a096;
     text-decoration: transparent;
     font-size: 40px;
     font-weight: bold;
 }
-.dashboard .dashboard-container .next .next-button:hover {
+.investments .dashboard-container .back .next-button:hover {
     color: #21BB96;
     font-weight: bold;
 }
 
 /* User full name / username */
-.dashboard .dashboard-container .h1-dashboard {
+.investments .dashboard-container .h1-dashboard {
     font-family: "Righteous-Regular";
     font-size: 24px;
     color: #21BB96;
@@ -57,106 +46,14 @@
     align-items: center;
 }
 
-.dashboard .dashboard-container .week-month-container {
+.investments .dashboard-container .week-month-container {
     height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-}
-
-.dashboard .dashboard-container .week-month-container .week,
-.dashboard .dashboard-container .week-month-container .month {
-    border-top: 2px solid #d3d3d3;
-    border-left: 2px solid #d3d3d3;
-    border-right: 1px solid #b9b7b7;
-    border-bottom: .2px solid #b9b7b7;
-    box-shadow: #c0bfbf 4px 4px 3px;
-    border-radius: 8px;
-    padding: 0 20px 20px 20px;
-
-    width: 334px;
-    height: 211px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: stretch;
-}
-.dashboard .dashboard-container .week-month-container .week .week-number,
-.dashboard .dashboard-container .week-month-container .month .month-name {
-    opacity: 0.45;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.dashboard .dashboard-container .week-month-container .week hr,
-.dashboard .dashboard-container .week-month-container .month hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.dashboard .dashboard-container .week-month-container .week .planned,
-.dashboard .dashboard-container .week-month-container .week .remaining,
-.dashboard .dashboard-container .week-month-container .week .expenses-budget,
-.dashboard .dashboard-container .week-month-container .month .planned,
-.dashboard .dashboard-container .week-month-container .month .remaining,
-.dashboard .dashboard-container .week-month-container .month .expenses-budget {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.dashboard .dashboard-container .week-month-container .week .planned div:first-child,
-.dashboard .dashboard-container .week-month-container .week .remaining div:first-child,
-.dashboard .dashboard-container .week-month-container .month .planned div:first-child,
-.dashboard .dashboard-container .week-month-container .month .remaining div:first-child {
-    width: 60%;
-    display: flex;
-    justify-content: flex-start;
-    color: #4A4E4D;
-    line-height: 30px;
-}
-.dashboard .dashboard-container .week-month-container .week .planned div+div,
-.dashboard .dashboard-container .week-month-container .week .remaining div+div,
-.dashboard .dashboard-container .week-month-container .month .planned div+div,
-.dashboard .dashboard-container .week-month-container .month .remaining div+div {
-    width: 40%;
-    display: flex;
-    justify-content: flex-end;
-}
-.dashboard .dashboard-container .week-month-container .week .planned div+div,
-.dashboard .dashboard-container .week-month-container .month .planned div+div {
-    color: #3DA4AB;
-}
-.dashboard .dashboard-container .week-month-container .week .remaining div+div {
-    color: #FF6847;
-}
-.dashboard .dashboard-container .week-month-container .month .remaining div+div {
-    color: #FFBD59;
-}
-.dashboard .dashboard-container .week-month-container .week .expenses-budget,
-.dashboard .dashboard-container .week-month-container .month .expenses-budget {
-    justify-content: space-around;
-    opacity: 0.4;
-}
-
-.dashboard .dashboard-container .reports-container {
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.dashboard .dashboard-container .reports-container .reports {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 334px;
-    height: 60px;
-    background-color: #3DA4AB;
-    border-radius: 8px;
 
     font-family: "Righteous-Regular";
-    font-size: 24px;
-    color: #ffffff;
-
-    /* margin-bottom: 20px; */
+    font-size: 36px;
+    color: #B9D3C7;
 }

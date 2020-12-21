@@ -5,23 +5,25 @@ import "./style.css"
 
 export default function Dashboard() {
     return (
-        <div className="login dashboard">
+        <div className="login dashboard investments">
 
             <div className="dashboard-container">
-                <div className="next">
-                    <Link className="next-button" to="">
-                       &gt;
+                <div className="back">
+                    <Link className="next-button" to="/dashboard">
+                       &lt;
                     </Link>
                 </div>
 
                 <div>
                     <h1 className="h1-dashboard">
-                        Max Mustermann
+                        Investments
                     </h1>
                 </div>
 
                 <div className="week-month-container">
-                    <div className="week">
+
+                    Comming soon...
+                    {/* <div className="week">
                         <div className="week-number">
                             Week 35
                         </div>
@@ -89,14 +91,14 @@ export default function Dashboard() {
                                 Budget
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
-                <div className="reports-container">
+                {/* <div className="reports-container">
                     <div className="reports">
                         View Reports
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
