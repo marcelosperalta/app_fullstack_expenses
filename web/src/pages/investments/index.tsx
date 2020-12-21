@@ -9,7 +9,7 @@ export default function Dashboard() {
 
             <div className="dashboard-container">
                 <div className="next">
-                    <Link className="next-button" to="/investments">
+                    <Link className="next-button" to="">
                        &gt;
                     </Link>
                 </div>
