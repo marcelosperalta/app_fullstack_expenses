@@ -5,97 +5,118 @@ import "./style.css"
 
 export default function Budget() {
     return (
-        <div className="login dashboard">
+        <div className="login dashboard budget">
 
             <div className="dashboard-container">
-                <div className="next">
-                    <Link className="next-button" to="/investments">
-                       &gt;
+                <div className="back">
+                    <Link className="next-button" to="/dashboard">
+                       &lt;
                     </Link>
                 </div>
 
                 <div>
                     <h1 className="h1-dashboard">
-                        Max Mustermann
+                        Budget
                     </h1>
                 </div>
 
                 <div className="week-month-container">
                     <div className="week">
                         <div className="week-number">
-                            Week 35
+                            New Budget
                         </div>
 
                         <div className="planned">
                             <div id="test">
-                                Planned budget:
+                                Value:
                             </div>
                             <div>
-                                150.00 €
+                                15.00 €
                             </div>
                         </div>
 
                         <div className="remaining">
                             <div>
-                                Remaining budget:
+                                Category:
                             </div>
                             <div>
-                                -32.00 €
+                                Motherlode
                             </div>
                         </div>
 
                         <hr/>
 
-                        <div className="expenses-budget">
-                            <div>
-                                Expenses
-                            </div>
-                            <div>
-                                Budget
-                            </div>
+                        <div className="save-clean">
+                            <Link id="link" to="">
+                                <div className="save">
+                                    Save
+                                </div>
+                            </Link>
+                            <Link to="">
+                                <div className="clean">
+                                    Clean
+                                </div>
+                            </Link>
                         </div>
                     </div>
 
                     <div className="month">
                         <div className="month-name">
-                            August
+                            Last Inputs
                         </div>
 
-                        <div className="planned">
+                        <div className="inputs">
                             <div>
-                                Planned budget:
+                                Salary:
                             </div>
                             <div>
-                                1850.00 €
+                                27/08/2020
+                            </div>
+                            <div>
+                                2854.96 €
+                            </div>
+                        </div>
+
+                        
+                        <div className="inputs">
+                            <div>
+                                YouTube:
+                            </div>
+                            <div>
+                                26/08/2020
+                            </div>
+                            <div>
+                                32.00 €
+                            </div>
+                        </div>
+                        
+                        <div className="inputs">
+                            <div>
+                                Friend:
+                            </div>
+                            <div>
+                                24/08/2020
+                            </div>
+                            <div>
+                                75.94 €
                             </div>
                         </div>
 
                         <div className="remaining">
                             <div>
-                                Remaining budget:
+                                Today:
                             </div>
                             <div>
-                                432.00 €
-                            </div>
-                        </div>
-
-                        <hr/>
-
-                        <div className="expenses-budget">
-                            <div>
-                                Expenses
-                            </div>
-                            <div>
-                                Budget
+                                2962.90 €
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div className="reports-container">
-                    <Link to="/reports">
+                    <Link to="">
                         <div className="reports">
-                                View Reports
+                                Edit Budget
                         </div>
                     </Link>
                 </div>

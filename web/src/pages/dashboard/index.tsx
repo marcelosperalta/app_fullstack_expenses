@@ -15,9 +15,11 @@ export default function Dashboard() {
                 </div>
 
                 <div>
-                    <h1 className="h1-dashboard">
-                        Max Mustermann
-                    </h1>
+                    <Link to="">
+                        <h1 className="h1-dashboard">
+                            Max Mustermann
+                        </h1>
+                    </Link>
                 </div>
 
                 <div className="week-month-container">
