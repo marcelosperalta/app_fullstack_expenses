@@ -1,0 +1,9 @@
+/* expenses */
+
+.expenses .dashboard-container .week-month-container .month .inputs div+div+div {
+    color: #FFBD59;
+}
+
+.expenses .dashboard-container .week-month-container .month .remaining div+div {
+    color: #FF5959;
+}
