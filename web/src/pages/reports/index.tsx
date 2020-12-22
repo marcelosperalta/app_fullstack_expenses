@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import "./style.css"
 
-export default function Investments() {
+export default function Reports() {
     return (
         <div className="login dashboard investments">
 
@@ -16,13 +16,11 @@ export default function Investments() {
 
                 <div>
                     <h1 className="h1-dashboard">
-                        Investments
+                        Reports
                     </h1>
                 </div>
 
                 <div className="week-month-container">
-
-                    Comming soon...
                     {/* <div className="week">
                         <div className="week-number">
                             Week 35
@@ -94,11 +92,11 @@ export default function Investments() {
                     </div> */}
                 </div>
 
-                {/* <div className="reports-container">
+                <div className="reports-container">
                     <div className="reports">
-                        View Reports
+                        View More
                     </div>
-                </div> */}
+                </div>
             </div>
         </div>
     )

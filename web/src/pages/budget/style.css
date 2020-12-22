@@ -1,0 +1,99 @@
+.budget {
+    position: relative;
+}
+
+.budget .dashboard-container .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.budget .dashboard-container .back .next-button {
+    color: #FFFFFF;
+}
+.budget .dashboard-container .back .next-button {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.budget .dashboard-container .back .next-button:link, 
+.budget .dashboard-container .back .next-button:visited,
+.budget .dashboard-container .back .next-button:active {
+    color: #75a096;
+    text-decoration: transparent;
+    font-size: 40px;
+    font-weight: bold;
+}
+.budget .dashboard-container .back .next-button:hover {
+    color: #21BB96;
+    font-weight: bold;
+}
+
+.budget .dashboard-container .week-month-container .week .remaining div+div {
+    color: #B9D3C7;
+}
+
+.budget .dashboard-container .week-month-container .save-clean {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.budget .dashboard-container .week-month-container .save-clean a .save {
+    color: #3DA4AB;
+}
+.budget .dashboard-container .week-month-container .save-clean a .clean {
+    color: rgba(0, 0, 0, 0.45);
+}
+.budget .dashboard-container .week-month-container .save-clean a .save:hover,
+.budget .dashboard-container .week-month-container .save-clean a .clean:hover {
+    font-weight: bold;
+}
+
+.budget .dashboard-container .week-month-container .month .inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    line-height: 17px;
+}
+.budget .dashboard-container .week-month-container .month .inputs:nth-child(2), 
+.budget .dashboard-container .week-month-container .month .inputs:nth-child(3){
+    border-bottom: 1px solid rgba(0, 0, 0, 0.33);
+}
+.budget .dashboard-container .week-month-container .month .inputs:nth-child(3), 
+.budget .dashboard-container .week-month-container .month .inputs:nth-child(4){
+    margin-top: -12px;
+}
+.budget .dashboard-container .week-month-container .month .inputs div:first-child {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    color: #4A4E4D;
+}
+.budget .dashboard-container .week-month-container .month .inputs div+div {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.30);
+}
+.budget .dashboard-container .week-month-container .month .inputs div+div+div {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    color: #B9D3C7;
+}
+
+.budget .dashboard-container .week-month-container .month .remaining div:first-child {
+    color: #000000;
+    opacity: 0.3;
+}
+.budget .dashboard-container .week-month-container .month .remaining div+div {
+    color: #3DA4AB;
+    font-size: 18px;
+}

@@ -15,9 +15,11 @@ export default function Dashboard() {
                 </div>
 
                 <div>
-                    <h1 className="h1-dashboard">
-                        Max Mustermann
-                    </h1>
+                    <Link to="">
+                        <h1 className="h1-dashboard">
+                            Max Mustermann
+                        </h1>
+                    </Link>
                 </div>
 
                 <div className="week-month-container">
@@ -50,9 +52,9 @@ export default function Dashboard() {
                             <div>
                                 Expenses
                             </div>
-                            <div>
+                            <Link to="/budget">
                                 Budget
-                            </div>
+                            </Link>
                         </div>
                     </div>
 
@@ -85,17 +87,19 @@ export default function Dashboard() {
                             <div>
                                 Expenses
                             </div>
-                            <div>
+                            <Link to="/budget">
                                 Budget
-                            </div>
+                            </Link>
                         </div>
                     </div>
                 </div>
 
                 <div className="reports-container">
-                    <div className="reports">
-                        View Reports
-                    </div>
+                    <Link to="/reports">
+                        <div className="reports">
+                                View Reports
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>

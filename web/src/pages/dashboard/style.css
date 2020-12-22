@@ -135,9 +135,19 @@
 .dashboard .dashboard-container .week-month-container .week .expenses-budget,
 .dashboard .dashboard-container .week-month-container .month .expenses-budget {
     justify-content: space-around;
+}
+.dashboard .dashboard-container .week-month-container .week .expenses-budget a,
+.dashboard .dashboard-container .week-month-container .month .expenses-budget a {
+    color: #000000;
     opacity: 0.4;
 }
-
+.dashboard .dashboard-container .week-month-container .week .expenses-budget a:hover,
+.dashboard .dashboard-container .week-month-container .month .expenses-budget a:hover {
+    text-decoration: transparent;
+    font-weight: bold;
+    color: #21BB96;
+    opacity: 1;
+}
 .dashboard .dashboard-container .reports-container {
     height: 10vh;
     display: flex;
@@ -153,10 +163,16 @@
     height: 60px;
     background-color: #3DA4AB;
     border-radius: 8px;
+    border-bottom: 1px solid #53c5ce;
+    box-shadow: #c0bfbf 0px 4px 3px;
 
     font-family: "Righteous-Regular";
     font-size: 24px;
     color: #ffffff;
-
-    /* margin-bottom: 20px; */
+}
+.dashboard .dashboard-container .reports-container .reports:hover {
+    opacity: 0.8;
+}
+.dashboard .dashboard-container .reports-container a {
+    color: #ffffff;
 }
