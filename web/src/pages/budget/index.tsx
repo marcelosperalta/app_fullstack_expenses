@@ -3,27 +3,25 @@ import { Link } from "react-router-dom";
 
 import "./style.css"
 
-export default function Investments() {
+export default function Budget() {
     return (
-        <div className="login dashboard investments">
+        <div className="login dashboard">
 
             <div className="dashboard-container">
-                <div className="back">
-                    <Link className="next-button" to="/dashboard">
-                       &lt;
+                <div className="next">
+                    <Link className="next-button" to="/investments">
+                       &gt;
                     </Link>
                 </div>
 
                 <div>
                     <h1 className="h1-dashboard">
-                        Investments
+                        Max Mustermann
                     </h1>
                 </div>
 
                 <div className="week-month-container">
-
-                    Comming soon...
-                    {/* <div className="week">
+                    <div className="week">
                         <div className="week-number">
                             Week 35
                         </div>
@@ -91,14 +89,16 @@ export default function Investments() {
                                 Budget
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
 
-                {/* <div className="reports-container">
-                    <div className="reports">
-                        View Reports
-                    </div>
-                </div> */}
+                <div className="reports-container">
+                    <Link to="/reports">
+                        <div className="reports">
+                                View Reports
+                        </div>
+                    </Link>
+                </div>
             </div>
         </div>
     )

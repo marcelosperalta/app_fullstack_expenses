@@ -50,9 +50,9 @@ export default function Dashboard() {
                             <div>
                                 Expenses
                             </div>
-                            <div>
+                            <Link to="/budget">
                                 Budget
-                            </div>
+                            </Link>
                         </div>
                     </div>
 
@@ -85,17 +85,19 @@ export default function Dashboard() {
                             <div>
                                 Expenses
                             </div>
-                            <div>
+                            <Link to="/budget">
                                 Budget
-                            </div>
+                            </Link>
                         </div>
                     </div>
                 </div>
 
                 <div className="reports-container">
-                    <div className="reports">
-                        View Reports
-                    </div>
+                    <Link to="/reports">
+                        <div className="reports">
+                                View Reports
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>
