@@ -8,6 +8,7 @@ import Dashboard       from './pages/dashboard/index';
 import Investments     from './pages/investments/index';
 import Reports         from './pages/reports/index';
 import Budget          from './pages/budget/index';
+import Expenses        from './pages/expenses/index';
 
 export default function Routes() {
     return (
@@ -20,6 +21,7 @@ export default function Routes() {
                 <Route path="/investments"      component={Investments} />
                 <Route path="/reports"          component={Reports} />
                 <Route path="/budget"           component={Budget} />
+                <Route path="/expenses"         component={Expenses} />
             </Switch>
         </BrowserRouter>
     );

@@ -49,9 +49,9 @@ export default function Dashboard() {
                         <hr/>
 
                         <div className="expenses-budget">
-                            <div>
+                            <Link to="/expenses">
                                 Expenses
-                            </div>
+                            </Link>
                             <Link to="/budget">
                                 Budget
                             </Link>
@@ -84,9 +84,9 @@ export default function Dashboard() {
                         <hr/>
 
                         <div className="expenses-budget">
-                            <div>
+                            <Link to="/expenses">
                                 Expenses
-                            </div>
+                            </Link>
                             <Link to="/budget">
                                 Budget
                             </Link>

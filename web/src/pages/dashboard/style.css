@@ -141,8 +141,15 @@
     color: #000000;
     opacity: 0.4;
 }
-.dashboard .dashboard-container .week-month-container .week .expenses-budget a:hover,
-.dashboard .dashboard-container .week-month-container .month .expenses-budget a:hover {
+.dashboard .dashboard-container .week-month-container .week .expenses-budget a:first-child:hover,
+.dashboard .dashboard-container .week-month-container .month .expenses-budget a:first-child:hover {
+    text-decoration: transparent;
+    font-weight: bold;
+    color: #FF5959;
+    opacity: 1;
+}
+.dashboard .dashboard-container .week-month-container .week .expenses-budget a+a:hover,
+.dashboard .dashboard-container .week-month-container .month .expenses-budget a+a:hover {
     text-decoration: transparent;
     font-weight: bold;
     color: #21BB96;
